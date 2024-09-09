@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=UnifrakturMaguntia&display=swap');
+
+
+body {
+    /* background-color: #CDB4DB;  */
+    background-image: url(../imgs/pastel_goth.avif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2rem;
+}
+
+.container {
+    background-color: #f9f9f9;
+    width: 30rem; 
+    min-height: auto;
+    height: auto;
+    overflow: visible;
+    padding: 1.25rem;
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: 0.5rem 0.25rem 0.125rem -0.125rem #BDE0FE; 
+    position: relative;
+    border: 0.125rem solid #CDB4DB; 
+   background-image: radial-gradient(circle, #A2D2FF 1px, transparent 1px); 
+    background-size: 1.25rem 1.25rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin: 1rem;
+}
+
+
+img {
+    width: 4rem;
+} 
+
+h3 {
+    font-family: "Lora", serif;
+    text-align: center;
+    color: #444;
+    font-size: 1.1rem;
+}
+
+button {
+    font-family: inherit;
+    padding: 0.625rem;
+    background: linear-gradient(100deg, #CDB4DB, #FFAFCC);
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.25rem 0.125rem -0.125rem #BDE0FE; 
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: large;
+}
+
+ button:hover {
+    background: linear-gradient(50deg, #FFAFCC, #CDB4DB);
+    color: white;
+} 
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem; 
+}
+
+.input input {
+    border: none;
+    border-bottom: 0.125rem dashed #FFAFCC; 
+    padding: 0.625rem; 
+    width: 90%; 
+    outline: none;
+    font-family: "Lora", serif;
+    font-size: large; 
+    margin-right: 0.625rem; 
+    background-color: transparent;
+    transition: border-color 0.3s ease;
+}
+
+.input input:focus {
+    border-bottom-color: #A2D2FF;
+}
+
+#unordered-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 1.3rem;
+}
+
+#unordered-list li {
+    margin-bottom: 1.1rem;
+    font-family: "Lora", serif;
+    font-size: 1.5rem;
+}
+
+.clear {
+    display: block;
+     margin: 1.25rem auto 0;
+     
+}
